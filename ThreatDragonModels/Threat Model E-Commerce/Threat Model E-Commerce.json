@@ -5,7 +5,7 @@
   "summary": {
     "title": "Threat Model E-Commerce",
     "owner": "Hakim",
-    "description": "aplikasi e commerce ini adalah aplikasi untuk UMKM berdagang tanpa perlu hawatir dengan biaya sewa toko yang mahal",
+    "description": "Aplikasi e-commerce ini adalah platform yang dirancang untuk membantu UMKM berdagang secara online tanpa perlu khawatir dengan biaya sewa toko fisik yang mahal. Arsitektur sistem ini memisahkan zona jaringan (Trust Boundary) antara Internet dan Internal Network. Komponen utamanya terdiri dari User Browser, API Gateway, Auth Service, Order Service, Payment Gateway pihak ketiga, serta media penyimpanan berupa PostgreSQL DB dan Session Store.",
     "id": 0
   },
   "detail": {
