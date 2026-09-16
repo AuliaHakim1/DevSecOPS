@@ -35,8 +35,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "b84f7dd7-350b-4070-bfc2-2276d167326b",
             "zIndex": -1,
+            "id": "b84f7dd7-350b-4070-bfc2-2276d167326b",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "DMZ Internal network",
@@ -80,6 +80,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -163,7 +164,6 @@
               ]
             },
             "id": "9db8939a-a529-4454-91ed-4d98a0125a7e",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "User Browser",
@@ -197,6 +197,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -280,7 +281,6 @@
               ]
             },
             "id": "a6b72098-32fe-45d6-a79e-0913a7634c6a",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Payment API",
@@ -314,6 +314,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -397,7 +398,6 @@
               ]
             },
             "id": "65ad8f4b-56bf-43af-9d2c-19e69ad8446b",
-            "zIndex": 3,
             "data": {
               "type": "tm.Process",
               "name": "API Gateway",
@@ -463,6 +463,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -546,7 +547,6 @@
               ]
             },
             "id": "555ea968-9911-4d0b-aabb-6e46e0c0c22c",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Auth Service",
@@ -605,6 +605,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -688,7 +689,6 @@
               ]
             },
             "id": "b9420cad-07d4-4aaa-b986-033b5a668234",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Order Service",
@@ -760,6 +760,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -843,7 +844,6 @@
               ]
             },
             "id": "3b07f0ae-606d-4036-ab7d-5d8c828b4483",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Payment Gateway",
@@ -907,6 +907,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -990,7 +991,6 @@
               ]
             },
             "id": "f9dba742-f4bb-4a4c-a1d2-b35f6465e52b",
-            "zIndex": 7,
             "data": {
               "type": "tm.Store",
               "name": "PostgreSQL DB",
@@ -1053,6 +1053,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -1136,7 +1137,6 @@
               ]
             },
             "id": "b5cacc47-bd3a-4b1e-89b1-5580af89d343",
-            "zIndex": 8,
             "data": {
               "type": "tm.Store",
               "name": "Session Store",
