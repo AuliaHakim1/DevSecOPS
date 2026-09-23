@@ -21,12 +21,12 @@
         "cells": [
           {
             "position": {
-              "x": 210,
-              "y": 20
+              "x": 209.9999999999992,
+              "y": 20.00000000000142
             },
             "size": {
-              "width": 750,
-              "height": 440
+              "width": 520,
+              "height": 410
             },
             "attrs": {
               "label": {
@@ -45,15 +45,47 @@
               "hasOpenThreats": false,
               "crossingFlows": [
                 "b87e947c-e31b-4acc-8867-679ea6681936",
-                "c814b1c7-6ac0-4bb1-9d8c-fa5f9a607ac8",
-                "069e285d-cc94-4ffd-a65f-6d5e030fe941",
+                "48d82f70-1e4a-4f11-8a50-3d6cd374add4",
                 "12298d34-284e-44ce-9a2d-fc3208f2895d"
               ],
               "containedElements": [
                 "65ad8f4b-56bf-43af-9d2c-19e69ad8446b",
                 "555ea968-9911-4d0b-aabb-6e46e0c0c22c",
                 "b9420cad-07d4-4aaa-b986-033b5a668234",
-                "3b07f0ae-606d-4036-ab7d-5d8c828b4483",
+                "3b07f0ae-606d-4036-ab7d-5d8c828b4483"
+              ]
+            }
+          },
+          {
+            "position": {
+              "x": 751,
+              "y": 20.000000000000398
+            },
+            "size": {
+              "width": 210,
+              "height": 270
+            },
+            "attrs": {
+              "label": {
+                "text": "internal"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "2c62c814-962b-41d8-a5e4-b494f74af8d5",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "internal",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [
+                "c814b1c7-6ac0-4bb1-9d8c-fa5f9a607ac8",
+                "48d82f70-1e4a-4f11-8a50-3d6cd374add4",
+                "069e285d-cc94-4ffd-a65f-6d5e030fe941"
+              ],
+              "containedElements": [
                 "f9dba742-f4bb-4a4c-a1d2-b35f6465e52b",
                 "b5cacc47-bd3a-4b1e-89b1-5580af89d343"
               ]
@@ -173,7 +205,18 @@
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [],
+              "threatFrequency": {
+                "spoofing": 0,
+                "repudiation": 0
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -433,13 +476,6 @@
                 "denialOfService": 2,
                 "elevationOfPrivilege": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -1406,7 +1442,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "b84f7dd7-350b-4070-bfc2-2276d167326b"
+                "2c62c814-962b-41d8-a5e4-b494f74af8d5"
               ]
             },
             "labels": [
@@ -1459,7 +1495,10 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
+              "trustBoundaryIds": [
+                "b84f7dd7-350b-4070-bfc2-2276d167326b",
+                "2c62c814-962b-41d8-a5e4-b494f74af8d5"
+              ]
             },
             "labels": [
               "Read/write order"
@@ -1512,7 +1551,7 @@
               "protocol": "",
               "threats": [],
               "trustBoundaryIds": [
-                "b84f7dd7-350b-4070-bfc2-2276d167326b"
+                "2c62c814-962b-41d8-a5e4-b494f74af8d5"
               ]
             },
             "labels": [
@@ -1588,6 +1627,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "April Rustianto, M.Kom",
-    "threatTop": 12
+    "threatTop": 13
   }
 }
